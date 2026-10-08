@@ -17,4 +17,5 @@ python /tmp/my-mint-integration/scripts/run_conformance.py
 
 CI instantiates the local.sandbox defaults and requires conformance
 (`execute` refused). Do not publish this template as a PyPI package.
-`mint apply` is not part of Mint.
+Release Please owns prerelease tags for this repository. Instantiation
+omits the Release Please train. `mint apply` is not part of Mint.

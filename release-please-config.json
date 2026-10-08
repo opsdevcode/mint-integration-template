@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "packages": {
+    ".": {
+      "release-type": "simple",
+      "package-name": "mint-integration-template",
+      "component": "mint-integration-template",
+      "include-v-in-tag": true,
+      "include-component-in-tag": false,
+      "prerelease": true,
+      "prerelease-type": "alpha",
+      "versioning-strategy": "prerelease",
+      "skip-labeling": true
+    }
+  }
+}

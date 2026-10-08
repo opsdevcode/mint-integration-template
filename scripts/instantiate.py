@@ -20,7 +20,17 @@ DEFAULTS = {
 def instantiate(source: Path, destination: Path, values: dict[str, str]) -> None:
     if destination.exists():
         raise SystemExit(f"refuse to overwrite {destination}")
-    shutil.copytree(source, destination, ignore=shutil.ignore_patterns(".git"))
+    shutil.copytree(
+        source,
+        destination,
+        ignore=shutil.ignore_patterns(
+            ".git",
+            "release-please-config.json",
+            ".release-please-manifest.json",
+            "release-train.yml",
+            "test_release_train.py",
+        ),
+    )
     for path in destination.rglob("*"):
         if not path.is_file():
             continue
