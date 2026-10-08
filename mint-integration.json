@@ -1,0 +1,52 @@
+{
+  "artifact": {
+    "digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+    "identity": "__MINT_INTEGRATION_IDENTITY__/__MINT_INTEGRATION_VERSION__"
+  },
+  "capabilities": [
+    {
+      "id": "__MINT_INTEGRATION_CAPABILITY__",
+      "version": "v1alpha1"
+    }
+  ],
+  "compatibility": {
+    "adapterId": "__MINT_INTEGRATION_IDENTITY__",
+    "adapterSchema": "mint.adapter/v0",
+    "adapterVersion": "v1alpha1",
+    "notes": "replace markers before mint integrations test"
+  },
+  "configurationSchemas": [],
+  "deprecation": {
+    "deprecated": false,
+    "eligibleRemoval": "",
+    "successor": ""
+  },
+  "executionSupport": "fake",
+  "identity": "__MINT_INTEGRATION_IDENTITY__",
+  "implementation": {
+    "executable": "__MINT_INTEGRATION_EXECUTABLE__",
+    "runtime": "python3.12"
+  },
+  "name": "__MINT_INTEGRATION_NAME__",
+  "namespace": "__MINT_INTEGRATION_NAMESPACE__",
+  "permissions": [],
+  "phases": [
+    "describe",
+    "evidence",
+    "observe",
+    "plan",
+    "validate",
+    "verify"
+  ],
+  "protocolVersions": [
+    "mint.protocol/v0"
+  ],
+  "provenance": {
+    "deterministic": true
+  },
+  "schema": "mint.integration/v0",
+  "targetKinds": [
+    "__MINT_INTEGRATION_TARGET_KIND__"
+  ],
+  "version": "__MINT_INTEGRATION_VERSION__"
+}

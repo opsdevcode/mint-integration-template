@@ -1,0 +1,10 @@
+{
+  "capability": {
+    "id": "__MINT_INTEGRATION_CAPABILITY__",
+    "version": "v1alpha1"
+  },
+  "target": {
+    "id": "fixture-alpha",
+    "kind": "__MINT_INTEGRATION_TARGET_KIND__"
+  }
+}
