@@ -39,3 +39,4 @@ The GitHub integration sibling uses
 `sha256:3c864b4f5e7298a0a2f52d0680cb5c3eb8ea57a8195e7d9ba628fe3b7b6e60da`.
 Pin a tree with `mint integrations add --project DIR --local mint-integration.json`.
 `add` does not pip or execute.
+GitHub Releases are canonical (`opsdevcode.release/v0`). PyPI publication stays deferred.

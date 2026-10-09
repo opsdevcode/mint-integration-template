@@ -1,0 +1,41 @@
+{
+  "schema": "opsdevcode.release/v0",
+  "repository": "opsdevcode/mint-integration-template",
+  "profile": "mint-integration",
+  "canonical": "github-release",
+  "engine": "release-please",
+  "tagPolicy": {
+    "manualTags": false,
+    "retag": false,
+    "pattern": "^v0\\.[0-9]+\\.[0-9]+-alpha\\.[0-9]+$"
+  },
+  "prerelease": {
+    "githubMakeLatest": false
+  },
+  "downstream": {
+    "pypi": {
+      "role": "deferred"
+    },
+    "ghcr": {
+      "role": "none",
+      "latest": false,
+      "visibilityChange": false
+    },
+    "marketplace": {
+      "role": "deferred"
+    },
+    "openvsx": {
+      "role": "deferred"
+    },
+    "pages": {
+      "role": "none"
+    }
+  },
+  "artifacts": [
+    "notes"
+  ],
+  "provenance": {
+    "synthesize": false
+  },
+  "notes": "Template repo. Integration PyPI deferred."
+}
